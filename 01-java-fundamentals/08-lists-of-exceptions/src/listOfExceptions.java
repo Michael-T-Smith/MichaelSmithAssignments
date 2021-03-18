@@ -13,7 +13,7 @@ public class listOfExceptions {
 			Integer castedValue = (Integer) myList.get(i);
 			} catch (ClassCastException e) { 
 				System.out.println("This didnt work");
-				System.out.println("Location of breakage: " + myList.indexOf(i));
+				System.out.println("Location of breakage: " + myList.indexOf(myList.get(i)));
 				System.out.println("Value that broken index: " + myList.get(i) + "\n");
 				
 			}
