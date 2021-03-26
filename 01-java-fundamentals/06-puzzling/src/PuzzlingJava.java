@@ -96,5 +96,6 @@ public class PuzzlingJava {
 		}
 		String randomString = sb.toString();
 		System.out.println("Random String: " + randomString);
+		
 	}	
 }

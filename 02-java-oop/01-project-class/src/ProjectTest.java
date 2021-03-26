@@ -9,6 +9,5 @@ public class ProjectTest {
 		System.out.println(concreteTunnel.getCost());
 		System.out.println(concreteTunnel.getDescription());
 		System.out.println(superMarket.elevatorPitch());
-		
 	}
 }
