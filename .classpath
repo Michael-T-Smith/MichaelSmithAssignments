@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="01-java-fundamentals/06-puzzling/src"/>
+	<classpathentry kind="src" path="01-java-fundamentals/07-map-of-the-hashmatique/src"/>
+	<classpathentry kind="src" path="01-java-fundamentals/08-lists-of-exceptions/src"/>
+	<classpathentry kind="src" path="02-java-oop/01-project-class/src"/>
+	<classpathentry kind="src" path="02-java-oop/02-singly-linked-list/src"/>
+	<classpathentry kind="src" path="02-java-oop/03-zoo-keeper-pt1/src"/>
+	<classpathentry kind="src" path="02-java-oop/04-zoo-keeper-pt2/src"/>
+	<classpathentry kind="src" path="02-java-oop/05-object-master-pt1/src"/>
+	<classpathentry kind="src" path="02-java-oop/06-object-master-p2/src"/>
+	<classpathentry kind="src" path="02-java-oop/07-bank-account/src"/>
+	<classpathentry kind="output" path="01-java-fundamentals/06-puzzling/bin"/>
+</classpath>
