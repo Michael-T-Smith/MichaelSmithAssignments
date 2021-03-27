@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+body {
+	padding:0px;
+	margin: 0px auto;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	text-decoration: underline;
+	
+}
+ul li {
+	margin: 35px;
+}
+span {
+	color: red;
+}
