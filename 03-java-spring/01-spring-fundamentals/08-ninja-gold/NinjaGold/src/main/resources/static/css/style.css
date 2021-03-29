@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+body{
+	background-color: silver;
+}
+.building{
+	border: 5px solid black;
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+}
+.building h4 {
+	color: blue;
+}
+.building button {
+	background-color: gold;
+}
+.goldAmount {
+	border: 5px solid black;
+	padding: 5px 50px 5px 5px;
+}
+.activityLog {
+	width: 800px;
+	border: 5px solid black;
+	overflow-y: auto;
+	height: 300px;
+} 
+
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
