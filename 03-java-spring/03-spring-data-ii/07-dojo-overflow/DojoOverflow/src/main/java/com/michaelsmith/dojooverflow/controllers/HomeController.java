@@ -21,6 +21,7 @@ import com.michaelsmith.dojooverflow.models.Question;
 import com.michaelsmith.dojooverflow.models.User;
 import com.michaelsmith.dojooverflow.services.AnswerService;
 import com.michaelsmith.dojooverflow.services.QuestionService;
+import com.michaelsmith.dojooverflow.services.TagService;
 import com.michaelsmith.dojooverflow.services.UserService;
 import com.michaelsmith.dojooverflow.validators.UserValidator;
 
@@ -34,6 +35,8 @@ public class HomeController {
 	QuestionService qService;
 	@Autowired
 	AnswerService aService;
+	@Autowired
+	TagService tService;
 	
 	@GetMapping("/")
 	public String index(@ModelAttribute("user") User user) {

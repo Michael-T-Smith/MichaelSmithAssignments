@@ -40,6 +40,8 @@ public class Question {
 	@OneToMany(mappedBy="question", fetch=FetchType.LAZY)
 	private List<Answer> answers;
 	
+	@OneToMany(mappedBy="tag", fetch=FetchType.LAZY)
+	private List<TagQuestion> tagQuestion;
 	//constructor
 	public Question() {
 		
@@ -89,6 +91,14 @@ public class Question {
 
 	public void setAnswers(List<Answer> answers) {
 		this.answers = answers;
+	}
+
+	public List<TagQuestion> getTagQuestion() {
+		return tagQuestion;
+	}
+
+	public void setTagQuestion(List<TagQuestion> tagQuestion) {
+		this.tagQuestion = tagQuestion;
 	}
 	
 	

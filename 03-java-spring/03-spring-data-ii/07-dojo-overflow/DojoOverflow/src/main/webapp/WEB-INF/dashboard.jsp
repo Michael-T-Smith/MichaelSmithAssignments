@@ -23,6 +23,7 @@
 			<c:forEach items="${questions}" var="q">
 				<tr>
 					<td><a href="${q.id}">${q.theQuestion}</a></td>
+					<td>${q.tagQuestion.tag}</td>
 				</tr>
 			</c:forEach>
 		</table>
